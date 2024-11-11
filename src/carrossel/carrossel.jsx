@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 
 const images = [
-  'https://github.com/kluiven/app-6Anos/blob/main/image/foto1.jpeg',
-  'https://github.com/kluiven/app-6Anos/blob/main/image/foto2.jpeg',
-  'https://github.com/kluiven/app-6Anos/blob/main/image/foto3.jpeg',
-  'https://github.com/kluiven/app-6Anos/blob/main/image/foto4.jpeg',
+  './image/foto1.jpeg',
+  './image/foto1.jpeg',
+  './image/foto3.jpeg',
+  './image/foto4.jpeg',
 ];
 
 function Carousel() {
