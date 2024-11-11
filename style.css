@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(240, 29%, 45%); /* Cor de fundo da tela */
+    margin: 0;
+}
