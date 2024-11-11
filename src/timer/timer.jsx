@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import dayjs from 'dayjs'
 
 function Timer() {
-    const [inputDate, setInputDate] = useState('10/11/2018');
+    const [inputDate, setInputDate] = useState('11/11/2018');
     const [timeDifference, setTimeDifference] = useState({});
   
     const calculateTimeDifference = (date) => {
