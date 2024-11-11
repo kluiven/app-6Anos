@@ -1,0 +1,45 @@
+.carousel {
+  position: relative;
+  width: 400px;
+  height: 400px; /* Garantir altura fixa */
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6286b358;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.carousel__image {
+  width: 100%;        /* Ocupa toda a largura do contêiner */
+  height: 100%;       /* Ocupa toda a altura do contêiner */
+  max-width: 400px;   /* Limita a largura máxima a 400px */
+  max-height: 400px;  /* Limita a altura máxima a 400px */
+  object-fit: contain; /* Ajusta a imagem mantendo a proporção, sem cortar */
+  background-color: #000; /* Borda preta se houver espaço extra */
+}
+
+
+.carousel__dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: rgba(0, 0, 0, 0.7);
+}
