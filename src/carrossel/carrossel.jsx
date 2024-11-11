@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 
 const images = [
-  'https://imgur.com/IeF3cbJ',
-  'https://imgur.com/IruPS0W',
-  'https://imgur.com/pEvpe5X',
-  'https://imgur.com/gEij66i',
+  'https://i.imgur.com/IeF3cbJ.jpg',
+  'https://i.imgur.com/IruPS0W.jpg',
+  'https://i.imgur.com/pEvpe5X.jpg',
+  'https://i.imgur.com/gEij66i.jpg',
 ];
+
 
 
 function Carousel() {
