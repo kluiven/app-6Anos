@@ -10,7 +10,7 @@ function TextBox() {
             <hr className="line my-4" />
             <ul className="card__list space-y-2">
             <li className="card__list_item">
-              <span class="text-gray-300">Apesar do inicio muito cedo, esses dois são um casal muito mais maduro que muitos outros. É lindo ver este amor florescendo e cada vez dando mais frutos. passamos juntos muitas dificuldades e obstáculos até chegar nesse momento, porem o melhor é ver que ao seu lado é possivel sempre encontrar soluções para qualquer problema. Achei em você um futuro, um caminho e a minha paz interior, obrigado por cada momento juntos Estamos...</span>
+              <span class="text-gray-300">Apesar do inicio muito cedo, esses dois são um casal muito mais maduro que muitos outros. É lindo ver este amor florescendo e cada vez dando mais frutos. passamos juntos muitas dificuldades e obstáculos até chegar nesse momento, porem o melhor é ver que ao seu lado é possivel sempre encontrar soluções para qualquer problema. Achei em você um futuro, um caminho e a minha paz interior, obrigado por cada momento juntos. Estamos juntos a...</span>
             </li>
             </ul>
         </div>
